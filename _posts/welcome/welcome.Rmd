@@ -1,0 +1,26 @@
+---
+title: "Welcome to The Exhaust Pipe"
+description: |
+  it's where i vent
+author:
+  - name: Patryk Soika
+    url: https://friendimaginary.github.io
+    affiliation: Penn State  |  Earth and Environmental Systems Institute
+    affiliation_url: https://www.eesi.psu.edu
+date: 10-17-2018
+output:
+  radix::radix_article:
+    self_contained: false
+preview: http://static.tumblr.com/601ff358f442e7e89868ce11144c2760/x7lxnx5/r2tmodxqg/tumblr_static_web_header.gif
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating blogs with Radix at:
+# https://rstudio.github.io/radix/blog.html
+
+```
+
+
+

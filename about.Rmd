@@ -1,0 +1,32 @@
+---
+title: "Welcome to the Exhaust Pipe"
+description: |
+  it's where i vent
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+Patryk Soika is an Information Technology Specialist in Penn State University's
+Earth and Environmental Systems Institute.  He does all the usual IT things, but
+in his spare time he studies data science and R programming.  Whenever
+possible, he follows Yoda's advice.
+  
+<br /><br /><br />
+  
+> *"Pass on what you have learned."*
+> 
+> --Yoda.
+
+<br /><br /><br />
+
+He once calculated the set of integers mostly likely to win the lottery.
+Unfortunately, they weren't significantly better than any other set. His midlife-crisicle
+is basically a Vespa.
+
+## Interests
+
+* Data Science
+* Other Science
+* Science Fiction
+* Kittens
