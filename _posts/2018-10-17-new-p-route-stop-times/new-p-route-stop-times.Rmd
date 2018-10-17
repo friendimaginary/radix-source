@@ -1,0 +1,110 @@
+---
+title: "New P route stop times"
+description: |
+  A table of my most used CATA bus stops and times.
+author:
+  - name: Patryk Soika
+    url: {}
+date: 10-17-2018
+output:
+  radix::radix_article:
+    self_contained: false
+draft: false
+preview: http://www.catabus.com/_images/CATAlogo.png
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+```{r cata}
+require(dplyr, quietly = T)
+p_at_home <- c(
+  "07:15",
+  "08:29",
+  "09:43",
+  "10:57",
+  "12:17",
+  "13:37",
+  "14:57",
+  "16:17",
+  "17:37",
+  "18:57",
+  "20:17",
+  "21:37",
+  "22:57"
+)
+p_at_walker <-
+  c(
+    "07:20",
+    "08:34",
+    "09:48",
+    "11:02",
+    "12:22",
+    "13:42",
+    "15:02",
+    "16:22",
+    "17:42",
+    "19:02",
+    "20:22",
+    "21:42",
+    "23:02"
+  )
+p_back_home <-  c(
+  "10:02",
+  "15:16",
+  "20:36",
+  "11:16",
+  "16:36",
+  "21:56",
+  "07:34",
+  "12:36",
+  "17:56",
+  "08:48",
+  "13:56",
+  "19:16",
+  "88:88"
+) %>% sort()
+p_creekside <- c(
+  "08:56",
+  "12:44",
+  "16:44",
+  "20:44",
+  "10:10",
+  "14:04",
+  "18:04",
+  "22:04",
+  "07:42",
+  "11:24",
+  "15:24",
+  "19:24",
+  "88:88"
+) %>% sort()
+p_ihop <-
+  c(
+    "07:07",
+    "08:21",
+    "09:35",
+    "10:49",
+    "12:09",
+    "13:29",
+    "14:49",
+    "17:29",
+    "18:49",
+    "20:09",
+    "21:29",
+    "22:49",
+    "88:88"
+  )
+
+tibble(p_at_home, p_at_walker, p_back_home, p_creekside, p_ihop) %>% DT::datatable(
+  options = list(
+    pageLength = -1,
+    lengthChange = FALSE,
+    searching = FALSE,
+    paging = FALSE,
+    ordering = FALSE
+  )
+)
+```

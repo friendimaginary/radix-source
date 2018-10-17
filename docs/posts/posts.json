@@ -1,0 +1,32 @@
+[
+  {
+    "path": "posts/2018-10-17-new-p-route-stop-times/",
+    "title": "New P route stop times",
+    "description": "A table of my most used CATA bus stops and times.",
+    "author": [
+      {
+        "name": "Patryk Soika",
+        "url": {}
+      }
+    ],
+    "date": "2018-10-17",
+    "categories": [],
+    "preview": "http://www.catabus.com/_images/CATAlogo.png",
+    "last_modified": "2018-10-17T16:40:09-04:00"
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to The Exhaust Pipe",
+    "description": "it's where i vent",
+    "author": [
+      {
+        "name": "Patryk Soika",
+        "url": "https://friendimaginary.github.io"
+      }
+    ],
+    "date": "2018-10-17",
+    "categories": [],
+    "preview": "http://static.tumblr.com/601ff358f442e7e89868ce11144c2760/x7lxnx5/r2tmodxqg/tumblr_static_web_header.gif",
+    "last_modified": "2018-10-17T16:40:01-04:00"
+  }
+]

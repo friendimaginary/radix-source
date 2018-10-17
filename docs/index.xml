@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>The Exhaust Pipe</title>
+    <link>https://friendimaginary.github.io</link>
+    <atom:link href="https://friendimaginary.github.io/index.xml" rel="self" type="application/rss+xml"/>
+    <description>The Exhaust Pipe
+</description>
+    <generator>Radix</generator>
+    <lastBuildDate>Wed, 17 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>New P route stop times</title>
+      <dc:creator>Patryk Soika</dc:creator>
+      <link>https://friendimaginary.github.io/posts/2018-10-17-new-p-route-stop-times</link>
+      <description>A table of my most used CATA bus stops and times.</description>
+      <guid>https://friendimaginary.github.io/posts/2018-10-17-new-p-route-stop-times</guid>
+      <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
+      <media:content url="http://www.catabus.com/_images/CATAlogo.png" medium="image" type="image/png"/>
+    </item>
+    <item>
+      <title>Welcome to The Exhaust Pipe</title>
+      <dc:creator>Patryk Soika</dc:creator>
+      <link>https://friendimaginary.github.io/posts/welcome</link>
+      <description>it's where i vent</description>
+      <guid>https://friendimaginary.github.io/posts/welcome</guid>
+      <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
+      <media:content url="http://static.tumblr.com/601ff358f442e7e89868ce11144c2760/x7lxnx5/r2tmodxqg/tumblr_static_web_header.gif" medium="image" type="image/gif"/>
+    </item>
+  </channel>
+</rss>
