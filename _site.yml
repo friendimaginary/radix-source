@@ -4,6 +4,7 @@ description: |
   The Exhaust Pipe
 output_dir: "docs"
 navbar:
+  logo: images/exhaust_pipe.gif
   right:
     - text: "Home"
       href: index.html

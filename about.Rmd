@@ -30,3 +30,11 @@ is basically a Vespa.
 * Other Science
 * Science Fiction
 * Kittens
+
+<br /><br /><br />
+
+```{r}
+knitr::include_graphics("images/bitmoji_w_kitten.png")
+```
+
+

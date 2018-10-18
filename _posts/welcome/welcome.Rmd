@@ -11,7 +11,7 @@ date: 10-17-2018
 output:
   radix::radix_article:
     self_contained: false
-preview: http://static.tumblr.com/601ff358f442e7e89868ce11144c2760/x7lxnx5/r2tmodxqg/tumblr_static_web_header.gif
+preview: ../../images/exhaust_pipe.gif
 ---
 
 ```{r setup, include=FALSE}
